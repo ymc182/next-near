@@ -14,7 +14,6 @@ import Header from "../components/Layout/header";
 import Hero from "../components/Layout/hero";
 
 export default function Home({ products }) {
-	console.log(products);
 	return (
 		<div>
 			<Header />
