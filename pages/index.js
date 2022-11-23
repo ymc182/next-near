@@ -22,7 +22,7 @@ export default function Home() {
 					Build Now
 				</Typography>
 				<Typography variant={"code"} sx={{ color: grey[900] }}>
-					npx create-next-app my-app -e ymc182/next-near
+					npx create-react-app my-app --template next-near
 				</Typography>
 			</Container>
 		</div>
