@@ -12,6 +12,7 @@ import {
 import { grey } from "@mui/material/colors";
 import Header from "../components/Layout/header";
 import Hero from "../components/Layout/hero";
+import TransactionButton from "../components/transactionButton";
 
 export default function Home({ products }) {
 	return (
@@ -63,6 +64,10 @@ export default function Home({ products }) {
 						);
 					})}
 				</Stack>
+				<TransactionButton receiver={"eric.testnet"} method={"lock_me_in"}>
+					{" "}
+					Test{" "}
+				</TransactionButton>
 			</Container>
 		</div>
 	);

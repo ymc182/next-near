@@ -18,11 +18,8 @@ export default function Header() {
 	const handleSwitchAccount = () => {
 		const currentIndex = accounts.findIndex((x) => x.accountId === accountId);
 		const nextIndex = currentIndex < accounts.length - 1 ? currentIndex + 1 : 0;
-
 		const nextAccountId = accounts[nextIndex].accountId;
-
 		selector.setActiveAccount(nextAccountId);
-
 		alert("Switched account to " + nextAccountId);
 	};
 	return (
