@@ -6,12 +6,12 @@ const theme = createTheme({
 	palette: {
 		type: "light",
 		primary: {
-			main: "#121212",
-			light: "#ffffff",
+			main: grey[900],
+			light: grey[50],
 			dark: "#7b7b7b",
 		},
 		secondary: {
-			main: "#fbf9f8",
+			main: grey[400],
 		},
 		background: {
 			paper: "#181818",
@@ -35,7 +35,7 @@ const theme = createTheme({
 		MuiDiv: {
 			styleOverrides: {
 				root: {
-					backgroundColor: grey[900],
+					backgroundColor: "#121212",
 				},
 			},
 		},

@@ -24,4 +24,4 @@ export const Div = styled("div", {
 	overridesResolver: (props, styles) => {
 		return [styles.root];
 	},
-})();
+})({});

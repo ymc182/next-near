@@ -6,3 +6,27 @@ body {
 	font-family: "Teko", sans-serif;
 	caret-color: transparent;
 }
+.MuiCard-root {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	justify-content: space-between;
+}
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #12121200;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(169, 169, 169);
+}
